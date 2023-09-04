@@ -1,0 +1,156 @@
+.home-bg {
+  background-image: var(--gradient);
+}
+
+.home-section {
+  background-image: url(./images/fuego.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  width: var(--page-w);
+  margin: 0px auto;
+  padding-bottom: 24px;
+}
+
+.side-one,
+.side-two {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 60%;
+  margin-top: 16em;
+}
+
+.side-two {
+  width: 40%;
+}
+
+.side-one li {
+  color: #dbb989;
+  list-style: none;
+  font-size: 3em;
+}
+
+.side-one li::before {
+  content: "\2022";
+  color: black;
+  display: inline-block;
+  width: 1em;
+}
+
+.side-one h1 {
+  font-size: 4.4em;
+  white-space: nowrap;
+  color: black;
+  margin: 24px 0px;
+}
+
+.side-one p {
+  font-size: 24px;
+}
+
+.side-one button {
+  width: 200px;
+  border-style: none;
+  padding: 16px;
+  border-radius: var(--border-radius);
+  font-size: 1.2em;
+  cursor: pointer;
+  margin: 2em 0px;
+  font-family: "bell", sans-serif;
+}
+
+.side-two .socials {
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 28px;
+  margin-top: 74px;
+}
+
+.side-two .social-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 54px;
+  height: 54px;
+  background-color: white;
+  border-radius: 100%;
+  transition: var(--transition);
+}
+
+.side-two .social-icon-container:hover {
+  scale: 1.1;
+}
+
+.side-two .social-icon-container img {
+  width: 36px;
+  filter: brightness(0.64);
+}
+
+.side-two .about-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.side-two .about {
+  background-color: white;
+  border-radius: var(--border-radius);
+  padding: 24px;
+  margin-bottom: 44px;
+  max-width: 540px;
+  position: relative;
+}
+
+.side-two .about-header {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.side-two .about-header p {
+  font-size: 24px !important;
+}
+
+.side-two .about-header img {
+  width: 42px;
+}
+
+.side-two .about p {
+  font-size: 19px;
+  margin: 9px 0px;
+}
+
+.side-two .flecha {
+  width: 84px;
+  height: 84px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 10px solid #a44c50;
+  border-radius: 100%;
+  position: absolute;
+  right: -16px;
+  bottom: -16px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.side-two .flecha:hover {
+  scale: 1.04;
+}
+
+.side-two .flecha img {
+  position: relative;
+  top: -1px;
+  left: 1px;
+}

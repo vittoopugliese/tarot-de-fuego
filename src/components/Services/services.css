@@ -1,0 +1,72 @@
+.services-bg {
+  background-image: var(--gradient);
+}
+
+.services-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  width: var(--page-w);
+  margin: 0px auto;
+  padding-bottom: 24px;
+  gap: 28px;
+}
+
+.services-section h1 {
+  font-size: 4em;
+  font-family: "bell", sans-serif;
+  background-color: var(--secondary);
+  width: 100vw;
+  text-align: center;
+  opacity: 0.9;
+}
+
+.services-card {
+  height: 540px;
+  display: flex;
+  background: var(--gradient2);
+  border-radius: var(--border-radius);
+  border: 2px solid grey;
+  padding: 36px 64px;
+  gap: 48px;
+}
+
+.services-texts {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.services-texts h2 {
+  font-family: "goth", sans-serif;
+  font-size: 44px !important;
+  color: #7c6f5b;
+}
+
+.services-texts p {
+  font-family: "bell", sans-serif;
+  font-size: 24px !important;
+}
+
+.service-button {
+  border-radius: 6px;
+  border-style: none;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary);
+  height: 50px;
+  font-size: 18px;
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.service-button:hover{
+  scale: 1.04;
+}
+
+.service-button img{
+  rotate: 180deg;
+}

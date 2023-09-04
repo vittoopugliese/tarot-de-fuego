@@ -1,0 +1,65 @@
+.recomendations-bg {
+  background: var(--gradient);
+}
+
+.recomendations-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 44px;
+  width: var(--page-w);
+  margin: 0px auto;
+}
+
+.recomendations-section h1 {
+  font-size: 4em;
+  font-family: "bell", sans-serif;
+  background-color: var(--secondary);
+  width: 100vw;
+  text-align: center;
+  opacity: 0.9;
+}
+
+.recomendations-card {
+  height: 540px;
+  display: flex;
+  background: var(--gradient2);
+  border-radius: var(--border-radius);
+  border: 2px solid grey;
+  padding: 36px 64px;
+  gap: 48px;
+}
+
+.recomendations-texts {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  text-align: center;
+}
+
+.recomendations-texts h2 {
+  font-family: "goth", sans-serif;
+  font-size: 44px !important;
+  color: #7c6f5b;
+}
+
+.recomendations-texts p {
+  font-family: "bell", sans-serif;
+  font-size: 24px !important;
+}
+
+.recomendations-card img {
+  cursor: pointer;
+  transition: var(--transition2);
+}
+
+.recomendations-card img:hover {
+  scale: 1.034;
+}
+
+@media (max-width: 400px) {
+  .recomendations-section {
+    width: var(--page-w4);
+  }
+}
